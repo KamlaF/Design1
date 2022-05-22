@@ -1,6 +1,25 @@
 body{
-    background-color: #cbddd1;
+    background-color: #ffffff;
 }
+
+.announcement {
+    display: inline-block;
+    height: 100%;
+    text-align: center;
+    width: 100%;
+    background: #0E2756;
+    color: white;
+    font-family: Arial, sans;
+    vertical-align: middle;
+    font-size: 10px;
+  }
+  .logo{
+      max-width: 200px;
+  }
+ nav li{
+     display: inline-block;
+ }
+  
 h1{
     color: #1f5014; text-align: center;
 }
