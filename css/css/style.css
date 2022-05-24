@@ -1,5 +1,6 @@
 body{
     background-color: #ffffff;
+    font-family: helvetica, sans-serif, arial;
 }
 
 .announcement {
@@ -14,10 +15,27 @@ body{
     font-size: 10px;
   }
   .logo{
-      max-width: 200px;
+      max-width: 250px;
   }
  nav li{
      display: inline-block;
+ }
+ .container{
+     display:flex;
+     background-color: #ffffff;
+ }
+ ol li{
+     display: inline-block;
+ }
+
+ ol a{
+     color: #0E2756;
+     text-decoration: none;
+     padding: 20px;
+ }
+
+ ol a:hover{
+     text-decoration: underline;
  }
   
 h1{
@@ -25,4 +43,8 @@ h1{
 }
 p{
     text-align: center; font-size: larger;
+}
+
+.front{
+ background-image: url(../images/images/mountain.jpg);
 }
