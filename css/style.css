@@ -75,22 +75,25 @@ p{
     display: grid; margin: auto; border-radius: 56px; border: solid #0E2756 5px;font-size: 30px;padding-left: 30px; padding-right: 30px;
     }
 
-section1{
-    align-items: center
-    text-align:center
+.section1{
+    display: flex;
+    justify-content: center;
+    
 }
 
 .button2{
-align-items: center;
-margin: auto; 
-border: solid #0E2756 5px;
+margin-top: 150px;
+margin-left: 20px;
+border: solid #0E2756 3px;
 font-size: 30px;
 padding-left: 30px;
 padding-right: 30px;
 height: 60px;
-width: 200px;
+width: 250px;
 display: inline;
 background-color: #ffffff;
+color: #0E2756;
+
 }
 
 h2{
@@ -99,4 +102,10 @@ h2{
     margin-top: 5cm;
     height: 40px;
     font-size: 35px;
+}
+
+.jakke1{
+    width: 200px;
+    height: 200px;
+
 }
