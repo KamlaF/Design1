@@ -15,45 +15,56 @@ body{
     font-size: 10px;
   }
   .logo{
-      max-width: 250px; max-height: 60px; padding-top: 10px; 
-  }
+      max-width: 250px; max-height: 60px; padding-top: 10px;}
 
   header{
-      position: relative;
-      color: #0E2756;
-      padding: 10px;
+    position: relative;
+    color: #0E2756;
+    padding: 10px;
+}
+
+nav{
+    position: absolute;
+    background-color: white;
+}
+nav, #menu-checkbox {
+   display: none;
+}
+#menu-checkbox:checked ~ nav {
+   display: block;
+}
+
+nav a{
+   color: #0E2756;
+}
+
+@media (min-width: 600px) {
+  nav,header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: static;}
+
+  a{
+      margin:30px;
+      font-size: 20px;
+      
+  }
+  .glass{
+      size: 20px;
   }
 
-  nav{
-      position: absolute;
-      background-color: white;
+   .hamburger-icon {
+       display: none;
+   }
+
+   nav a{ 
+       display: inline-block;
+       text-decoration: none;
   }
- nav, #menu-checkbox {
-     display: none;
- }
- #menu-checkbox:checked ~ nav {
-     display: block;
- }
-
- nav a{
-     color: #0E2756;
- }
-
- @media (min-width: 600px) {
-     nav {
-    display: block;
-    position: static;}
+}
 
 
-     .hamburger-icon {
-         display: none;
-     }
-
-     nav a{ 
-         display: inline-block;
-         text-decoration: none;
-    }
- }
 
  
 
@@ -69,17 +80,19 @@ p{
     background-image: url("../images/frontpage2.jpg")}
 .main{
     height: 450px
+    
 }
-
+.section1{
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    
+}
 .button1{
     display: grid; margin: auto; border-radius: 56px; border: solid #0E2756 5px;font-size: 30px;padding-left: 30px; padding-right: 30px;
     }
 
-.section1{
-    display: flex;
-    justify-content: center;
-    
-}
+
 
 .button2{
 margin-top: 150px;
@@ -105,7 +118,21 @@ h2{
 }
 
 .jakke1{
-    width: 200px;
+    border: #0E2756 solid;
     height: 200px;
+    margin: 5px
+       
 
+}
+
+h3{
+    text-align: center;
+    background-color:#E3893D;
+    margin-top: 10px;
+    height: 40px;
+    font-size: 30px;
+}
+
+.customer{
+    font-size: xx-large;
 }
