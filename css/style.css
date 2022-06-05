@@ -2,7 +2,6 @@ body{
     background-color: #ffffff;
     font-family: helvetica, sans-serif, arial;
 }
-
 .announcement {
     display: inline-block;
     height: 100%;
@@ -10,18 +9,19 @@ body{
     width: 100%;
     background: #0E2756;
     color: white;
-    font-family: Arial, sans;
+    font-family: helvetica, sans-serif, arial;
     vertical-align: middle;
     font-size: 10px;
   }
   .logo{
-      max-width: 250px; max-height: 60px; padding-top: 10px;}
+    max-width: 250px; max-height: 60px; padding-top: 10px;}
 
   header{
     position: relative;
     color: #0E2756;
     padding: 10px;
 }
+
 
 nav{
     position: absolute;
@@ -47,7 +47,9 @@ p{
 }
 
 .main{
-    background-image: url("../images/frontpage2.jpg")}
+    background-image: url("../images/frontpage2.jpg")
+}
+
 .main{
     height: 450px;
     
@@ -61,8 +63,6 @@ p{
 .button1{
     display: grid; margin: auto; border-radius: 56px; border: solid #0E2756 5px;font-size: 30px;padding-left: 30px; padding-right: 30px;
     }
-
-
 
 .button2{
 margin-top: 150px;
@@ -118,7 +118,13 @@ h3{
     display:flex;
     justify-content:center;
     flex-direction: row;
+    
 }
+
+.star{
+    color: #EAC34F;
+}
+
 
 footer{
     background-color: #0E2756; width: auto; height: 180px;
@@ -135,17 +141,16 @@ footer{
 .footer{
     color: #EAC34F;
     font-size: 50px;
-    position: relative;
-    top: -60px;
-    left: 2000px;
-}
+    text-align:end;
+    text-overflow: clip;
+    }
 
 
 /* desktop*/
 @media (min-width: 600px) {
     nav, header {
     display: flex;
-    justify-content:;
+    justify-content:center;
     align-items: center;
     position: static;}
   
@@ -164,10 +169,19 @@ footer{
       display: flex;
       justify-content: center;
       flex-direction: row;
+      justify-content: space-evenly;
   }
   }
 
+  /*tablet*/
+  @media only screen and (min-width:481px)and(max-width:599px){
+
+    h1{
+    display: none;
+    }
   
+  }
+      
 
 /*mobile*/
 
@@ -178,11 +192,6 @@ footer{
       h1{
          font-size: 2em;
       }
-      .reviews{
-        display:flex;
-        justify-content:center;
-        flex-direction:column;
-    }
 
     .jakke2{
         display: flex;
@@ -212,6 +221,17 @@ footer{
    }
    h2{
        margin-top: 100px;
+   }
+   .reviews{
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
+}
+   
+
+   .contact, .about, .footer, .star{
+       display:flex;
+       justify-content: center;
    }
   }
 
