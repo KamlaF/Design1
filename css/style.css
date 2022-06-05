@@ -175,11 +175,6 @@ footer{
 
   /*tablet*/
   @media only screen and (min-width:481px)and(max-width:599px){
-
-    h1{
-    display: none;
-    }
-  
   }
       
 
