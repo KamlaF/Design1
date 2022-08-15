@@ -13,6 +13,7 @@ body{
     vertical-align: middle;
     font-size: 10px;
   }
+
   
   .logo{
     max-width: 250px; max-height: 60px; padding-top: 10px;}
@@ -27,6 +28,7 @@ body{
     display: flex;
     justify-content:space-between;
     height: 100px;
+    
 }
 
 
@@ -45,16 +47,69 @@ nav a{
 }
 
 
-h1{
+.h1front{
     color: #ffffff; text-align: center; padding-top: 100px; font-size: 50px; padding-bottom: 150px;
 }
 
+.h2summary{
+    color: #0E2756;
+    background-color: grey;
+    display: inline-block;
+}
 
+.namesummary{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
 
 }
 
-p{
+hr{
+    height: 2px;
+    background-color: #0E2756;
+}
+
+
+.customer{
     text-align: center; font-size: larger;
+}
+
+
+.checkout{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color:#0E2756;
+    
+}
+
+.productsumary{
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#ffffff;
+    
+    
+
+}
+
+.summary{
+    color:#ffffff;
+    padding-top: 0%;padding-bottom: 0%;
+    display: flex;
+
+}
+.quantity2{
+    width: 400px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
 }
 
 .main{
@@ -68,16 +123,21 @@ p{
 .maincontact{
     background-image: url("../images/contactbackground2.jpg")
 
+
+}
+.maincontact{
+    display: flex;
+    justify-content: center;
 }
 .aboutbackground{
     background-image: url("../images/contactbackground2.jpg")
 
-
 }
+
 .aboutbackground{
     display: flex;
     height:800px;
-    width: ;
+
 }
 .section1{
     display: flex;
@@ -104,7 +164,7 @@ color: #0E2756;
 
 }
 
-h2{
+.h2front{
     text-align: center;
     background-color:#E3893D;
     margin-top: 5cm;
@@ -131,7 +191,7 @@ h2{
 figure{
     margin: 0px;
 }
-h3{
+.h3view{
     text-align: center;
     background-color:#E3893D;
     margin-top: 10px;
@@ -164,7 +224,8 @@ footer{
     display:block;
     font-size: 30px;
     text-decoration: none;
-    margin-top: 10px;
+    margin-top: 5px;
+
 
    
 }
@@ -173,6 +234,7 @@ footer{
     font-size: 50px;
     text-align:end;
     text-overflow: clip;
+    padding-right: 10px;
     }
 
     .h1allproducts{
@@ -216,6 +278,143 @@ button{
     background-color: #ffffff;
 }
 
+.h4about{
+    color: #ffffff;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    background-color: #0E2756;
+    padding: 150px;
+    opacity: 80%;
+    border-radius: 47px;
+}
+
+.h1contact{
+    color: #0E2756;
+    font-size: 50px;
+}
+
+.containerform{
+    min-width: 400px;
+    background-color:#0E2756;
+    opacity: 50%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    box-shadow: 0 5px 20px #7f868f;
+    border-radius: 8px;
+
+  }
+
+  form{
+    height: 75vh;
+    width: 30vw;
+    display: grid;
+    place-content: center;
+  }
+
+  .name, .email, .message, .button {
+      display: flex;
+      align-items: center;
+      justify-content: center
+    
+  }
+
+  .labelcontact{
+      color: #ffffff;
+      font-size: 20px;
+  }
+.infosummary{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.checkoutcontainer{
+    background-image: url(/images/rocks.jpg);
+}
+
+.labelsum{
+    font-size: 20px;
+;
+}
+.inputsum{
+    border: solid 3px; 
+    width: 250px;
+}
+
+.labelquant{
+    margin-left: 0%;
+}
+.inputqunt{
+    width: 50px;
+}
+
+.submitbutton{
+    border: solid;
+    margin-top: 10px;
+    width: 120px;
+    border-radius: 47px;
+    font-size: large;
+    padding: 5PX;
+    background-color: #ffffff;
+    margin-left: 70px;
+}
+  h5{
+    display: flex;
+    justify-content: flex-end;
+    color: #ffffff;
+  
+}
+
+.h1about{
+    color: #0E2756;
+    font-size: 50px;
+
+}
+
+.summarypic{
+    height: 150px;
+}
+
+.mainthankyou{
+    background-image:url(../images/2.jpg)
+}
+.thankyoucontainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5%;
+    padding-top: 5%;
+    
+}
+.thankyou{
+    font-size: 40px;
+    color: #ffffff;
+    
+}
+.thankyoup{
+    font-size: 30px;
+    margin-bottom: 0%;
+    color: #ffffff;
+}
+
+.thankyoup2{
+    font-size: 25px;
+    color: #ffffff;
+}
+
+.logo2{
+    max-width: 250px; max-height: 60px;
+    background-color: #ffffff;
+    padding: 10px;
+    margin-bottom: 10px;
+
+}
+
+
 
 
 
@@ -247,16 +446,20 @@ button{
   }
 
   /*tablet*/
-  @media only screen and (min-width:481px)and(max-width:599px){
+  @media only screen and (min-width:481px) and (max-width:599px){
+      .h1contact{
+          display: none;
+      }
+
+     
+
   }
       
 
 /*mobile*/
 
   @media only screen and (max-width:480px){
-      width{
-          320px
-      }
+     
       h1{
          font-size: 2em;
       }
@@ -300,59 +503,49 @@ button{
    .contact, .about, .footer, .star{
        display:flex;
        justify-content: center;
+       padding-top: 10px;
+       margin-top: 5px;
    }
+   .aboutbackground{
+       background-image: url(../images/mountain.jpg);
+
+   }
+   .aboutbackground{
+       height: 200PX;
+       margin-bottom: 200px;
+       
+   }
+   .h4about{
+       font-size: 20px;
+       padding: 60px;
+       margin-top: 205px;
+       padding-bottom: 50px;
+       border-radius: 0%;
+       opacity: 100%;
+   }
+
+   .h1contact{
+       display: none;
+   }
+
+   .jakke3{
+       height: 100px;
+       width: 100px;
+   }
+   .item1{
+       border: solid;
+       border-color: #0E2756;
+       margin: 2px;
+   }
+
+   
+   
   }
 
-  .h1contact{
-      color: #0E2756;
-  }
+ 
 
-  .containerform{
-    height: 75vh;
-    width: 25vw;
-    background-color:#0E2756;
-    opacity: 50%;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    align-items:;
+ 
 
-    box-shadow: 0 5px 20px #7f868f;
-    border-radius: 8px;
-
-  }
-
-  form{
-    height: 75vh;
-    width: 30vw;
-    display: grid;
-    place-content: center;
-  }
-
-  .labelcontact{
-      color: #ffffff;
-      font-size: 20px;
-  }
-  h5{
-      display: flex;
-      justify-content: flex-end;
-      color: #ffffff;
-    
-  }
-
-  .h1about{
-      color: #0E2756;
-  }
-
-  .h4about{
-      color: #ffffff;
-      font-size: 40px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      margin: auto;
-      background-color: #0E2756;
-      padding: 150px;
-      opacity: 80%;
-      border-radius: 47px;
-  }
+ 
+ 
+ 
