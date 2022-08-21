@@ -12,9 +12,7 @@ body{
     font-family: helvetica, sans-serif, arial;
     vertical-align: middle;
     font-size: 10px;
-  }
-
-  
+  } 
   .logo{
     max-width: 250px; max-height: 60px; padding-top: 10px;}
 
@@ -27,10 +25,8 @@ body{
 .header2{
     display: flex;
     justify-content:space-between;
-    height: 100px;
-    
+    height: 100px;  
 }
-
 
 nav{
     position: absolute;
@@ -39,13 +35,35 @@ nav, #menu-checkbox {
    display: none;
 }
 #menu-checkbox:checked ~ nav {
-   display: block;
+   display: inline-flex;
+   flex-direction: column;
+   background-color:#E4E4E4;
+   padding: 20px;
+   font-size: 25px;
+   
+}
+
+
+.navgone{
+    display: none;
 }
 
 nav a{
-   color: #0E2756;
+    color: #0E2756;
+ }
+
+
+.fa-bars{
+    font-size: 40px;
+    margin-left: 20px;
+    margin-top: 10px;
 }
 
+.fa-bag-shopping, .fa-magnifying-glass {
+    font-size: 25px;
+    margin-right: 40px;
+    margin-top: 10px;
+}
 
 .h1front{
     color: #ffffff; text-align: center; padding-top: 100px; font-size: 50px; padding-bottom: 150px;
@@ -64,6 +82,7 @@ nav a{
     justify-content: center;
     align-items: center;
     background-color: #ffffff;
+    margin-bottom: 100px;
 
 }
 
@@ -77,13 +96,11 @@ hr{
     text-align: center; font-size: larger;
 }
 
-
 .checkout{
     display: flex;
     justify-content: center;
     align-content: center;
-    background-color:#0E2756;
-    
+    background-color:#0E2756;    
 }
 
 .productsumary{
@@ -91,17 +108,17 @@ hr{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color:#ffffff;
-    
-    
-
+    background-color:#ffffff;   
 }
 
 .summary{
     color:#ffffff;
     padding-top: 0%;padding-bottom: 0%;
-    display: flex;
+    display: flex;  
+}
 
+.summarypic{
+    margin-top: 20px;
 }
 .quantity2{
     width: 400px;
@@ -117,34 +134,31 @@ hr{
 }
 
 .main{
-    height: 450px;
-    
+    height: 450px;   
 }
+
 .maincontact{
     background-image: url("../images/contactbackground2.jpg")
-
-
 }
 .maincontact{
     display: flex;
     justify-content: center;
+    
 }
 .aboutbackground{
     background-image: url("../images/contactbackground2.jpg")
-
 }
 
 .aboutbackground{
     display: flex;
-    height:800px;
-
+    height:800px;   
 }
 .section1{
     display: flex;
     justify-content: center;
-    height: 100px;
-    
+    height: 100px;   
 }
+
 .button1{
     display: grid; margin: auto; border-radius: 56px; border: solid #0E2756 5px;font-size: 30px;padding-left: 30px; padding-right: 30px;
     }
@@ -154,14 +168,17 @@ margin-top: 150px;
 margin-left: 20px;
 border: solid #0E2756 3px;
 font-size: 30px;
-padding-left: 30px;
-padding-right: 30px;
+padding-left: 20px;
+padding-right: 20px;
 height: 60px;
-width: 250px;
+width: 240px;
 display: inline;
 background-color: #ffffff;
 color: #0E2756;
+}
 
+.inputsum{
+font-size: 20px;;
 }
 
 .h2front{
@@ -174,8 +191,8 @@ color: #0E2756;
 
 .jakke1{
     border: #0E2756 solid;
-    height: 200px;
-    width: 200px;
+    width: 180px;
+    height: 180PX;
     object-fit: cover;
        }
 
@@ -186,11 +203,11 @@ color: #0E2756;
     align-items: center;
     justify-content: center;
     gap: 10px;
-
  }
 figure{
-    margin: 0px;
+    margin: 0px;   
 }
+
 .h3view{
     text-align: center;
     background-color:#E3893D;
@@ -206,8 +223,7 @@ figure{
 .reviews{
     display:flex;
     justify-content:center;
-    flex-direction: row;
-    
+    flex-direction: row;    
 }
 
 .star{
@@ -217,6 +233,13 @@ figure{
 
 footer{
     background-color: #0E2756; width: auto; height: 180px;
+   padding-bottom: 50px;
+}
+
+.contacttext{
+    color: #ffffff;
+    font-size: 20px;
+   
 }
 
 .contact, .about{
@@ -224,10 +247,7 @@ footer{
     display:block;
     font-size: 30px;
     text-decoration: none;
-    margin-top: 5px;
-
-
-   
+    margin-top: 5px;  
 }
 .footer{
     color: #EAC34F;
@@ -250,12 +270,19 @@ footer{
 
 .flex-container{
   padding: 1%;
-  flex-grow: 1;
-  flex-basis: 16%;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+}
 
+.item1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: #0E2756 solid 5px;
+    margin: 5px;
+    background-color: #E4E4E4;
 }
 
 figcaption{
@@ -267,8 +294,7 @@ figure{
     display: grid;
     justify-content: center;
     box-sizing: border-box;
-    padding: 10px;
-    
+    padding: 10px;    
 }
 
 button{
@@ -276,6 +302,12 @@ button{
     border-radius: 20px;
     font-size: 20px;
     background-color: #ffffff;
+    display: flex;
+    padding: 10px;   
+}
+
+a{
+    text-decoration: none;
 }
 
 .h4about{
@@ -289,23 +321,38 @@ button{
     padding: 150px;
     opacity: 80%;
     border-radius: 47px;
+    box-shadow: 0 5px 100px #E3893D;
+
 }
 
 .h1contact{
     color: #0E2756;
     font-size: 50px;
+    margin-right: 50px;
+}
+
+.name,.email {
+    flex-direction: column;
+    padding-top: 5px;
+}
+
+.website{
+    margin-top: 7px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .containerform{
     min-width: 400px;
     background-color:#0E2756;
-    opacity: 50%;
     justify-content: center;
     align-items: center;
     display: flex;
-    box-shadow: 0 5px 20px #7f868f;
-    border-radius: 8px;
-
+    box-shadow: 0 5px 100px #E3893D;
+    flex-direction: column;
   }
 
   form{
@@ -318,8 +365,7 @@ button{
   .name, .email, .message, .button {
       display: flex;
       align-items: center;
-      justify-content: center
-    
+      justify-content: center 
   }
 
   .labelcontact{
@@ -330,6 +376,7 @@ button{
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
 .checkoutcontainer{
@@ -360,19 +407,18 @@ button{
     font-size: large;
     padding: 5PX;
     background-color: #ffffff;
-    margin-left: 70px;
+    margin-bottom: 20px;   
 }
   h5{
     display: flex;
     justify-content: flex-end;
-    color: #ffffff;
-  
+    color: #ffffff; 
 }
 
 .h1about{
     color: #0E2756;
     font-size: 50px;
-
+    margin-right: 80px;
 }
 
 .summarypic{
@@ -392,9 +438,9 @@ button{
 }
 .thankyou{
     font-size: 40px;
-    color: #ffffff;
-    
+    color: #ffffff;   
 }
+
 .thankyoup{
     font-size: 30px;
     margin-bottom: 0%;
@@ -411,15 +457,33 @@ button{
     background-color: #ffffff;
     padding: 10px;
     margin-bottom: 10px;
+}
 
+.product{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.sizes{
+    display: flex;
+    margin-bottom: 20px;   
+}
+
+.h2product{
+    font-size: 50px;
 }
 
 
-
-
+.size{
+    border: #0E2756 solid 2px;
+    margin: 10px;
+    padding: 5px;
+    font-size: 25px;
+}
 
 /* desktop*/
-@media (min-width: 600px) {
+@media (min-width: 804px) {
     nav, header {
     display: flex;
     justify-content:center;
@@ -445,15 +509,42 @@ button{
   }
   }
 
+  
+
   /*tablet*/
-  @media only screen and (min-width:481px) and (max-width:599px){
+  @media only screen and (min-width:481px) and (max-width:803px){
       .h1contact{
           display: none;
       }
 
+      header{
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+      }
+
+      
+
+      .button2{
+        margin-top: 100px;
+        margin-left: 20px;
+        border: solid #0E2756 3px;
+        font-size: 30px;
+        padding-left: 20px;
+        padding-right: 20px;
+        height: 60px;
+        width: 200px;
+        display: inline;
+        background-color: #ffffff;
+        color: #0E2756;
+        }
+
+
      
 
   }
+
+
       
 
 /*mobile*/
@@ -463,11 +554,35 @@ button{
       h1{
          font-size: 2em;
       }
-
+      
+     
     .jakke2{
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+
+    .search{
+        display: none;
+    }
+
+    .fa-magnifying-glass{
+        font-size: 20px;
+        margin-right: 10px;
+        margin-left:px;
+      
+    }
+
+    .fa-bag-shopping{
+        font-size: 20px;
+        margin-top: 10px;
+    }
+
+    .fa-bars{
+        font-size: 20px;
+        margin-left: 10px;
+        margin-right: 20px;
+        margin-top: 10px;
     }
    .jakke1{
        height: 280px;
@@ -501,9 +616,10 @@ button{
    
 
    .contact, .about, .footer, .star{
+       
        display:flex;
        justify-content: center;
-       padding-top: 10px;
+       padding-top: 2px;
        margin-top: 5px;
    }
    .aboutbackground{
@@ -528,6 +644,10 @@ button{
        display: none;
    }
 
+   .h1about{
+       display: none;
+   }
+
    .jakke3{
        height: 100px;
        width: 100px;
@@ -538,8 +658,19 @@ button{
        margin: 2px;
    }
 
-   
-   
+   button{
+    border: solid;
+    border-radius: 20px;
+    font-size: 20px;
+    background-color: #ffffff;
+    display: flex;
+    padding: 6px;   
+}
+
+footer{
+    margin-top: 50px;
+    padding-top: 50px;
+}    
   }
 
  
