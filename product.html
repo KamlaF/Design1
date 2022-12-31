@@ -29,9 +29,11 @@
     <label for="menu-checkbox" class="hamburger-icon"><i class="fas fa-bars"></i></label>
    <a href="index.html"><img src="images/logo.png" alt="Logo of MyWebsite.com" class="logo"></a>
  <nav class="navabout">
-     <h1 class="h1about">PRODUCT</h1>
+    <a href="/index.html"> <h1 class="h1about">PRODUCT</h1></a>
  </nav>
-    <a href="/register.html"> <i class="fa-solid fa-bag-shopping"></i></a>
+ <div class="bag">
+  <a href="/cart.html"> <i class="fa-solid fa-bag-shopping"></i><span>0</span></a>
+</div>
     <nav class="navgone">
          <a href="mens.html">Mens</a>
          <a href="mens.html">Womens</a>
@@ -47,12 +49,12 @@
         <h2 class="h2product">Jacket One</h2>
         <p class="productdesciption>">Durable jacket made for all kinds of weather<br>with it`s durable material.</p>
        <div class="sizes">
-           <p class="size">S</p>
-           <p class="size">M</p>
-           <p class="size">L</p>
-           <p class="size">XL</p>
+           <button class="size">S</button>
+           <button class="size">M</button>
+           <button class="size">L</button>
+           <button class="size">XL</button>
        </div>
-         <a href="/register.html"><button class="button3">Buy now</button></a>
+      <button class="add-cart2">Add to Cart</button></a>
        </div>
       </div>
     </div>
@@ -67,5 +69,8 @@
    <i class="fa-brands fa-instagram" class="instagram"></i>
  </section>
 </footer>  
+<script src="https://kit.fontawesome.com/7078051783.js" crossorigin="anonymous"></script>
+          <script src="/js/errorMessage.js"></script>
+          <script src="/cartScript.js"></script>
 </body>
 </html>
