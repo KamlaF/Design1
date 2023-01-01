@@ -105,7 +105,7 @@ function displayCart() {
     Object.values(cartItems).map((item) => {
       productsContainer.innerHTML += `
         <div class="product">   
-            <i class="fa-sharp fa-solid fa-circle-xmark"></i> 
+            <i class="fa-sharp fa-solid fa-circle-xmark" ></i> 
             <img src="./images/${item.tag}.jpg">
             <span>${item.name}</span>
             </div>
