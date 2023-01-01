@@ -280,6 +280,10 @@ footer {
   padding-right: 10px;
 }
 
+.footer1 {
+  padding-top: 50px;
+}
+
 .h1allproducts {
   color: #0e2756;
   font-size: 60px;
@@ -732,11 +736,10 @@ label {
   display: none;
   padding: 50px;
   background-color: #000;
- 
 }
 
-.remove{
-  color:aqua
+.remove {
+  color: aqua;
 }
 /* desktop*/
 @media (min-width: 804px) {
@@ -893,5 +896,111 @@ label {
   footer {
     margin-top: 50px;
     padding-top: 50px;
+  }
+
+  .mobileImage,
+  .productpicture {
+    width: 200px;
+  }
+  .cartImage {
+    margin-bottom: 20px;
+  }
+
+  .products-container {
+    max-width: 300px;
+
+    margin: 0 auto;
+    margin-top: 50px;
+  }
+
+  .products-container fa-circle-xmark {
+    font-size: 15px;
+    color: blue;
+  }
+
+  .product-header {
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    border-bottom: 4px solid #0c0c0c;
+    margin: 0 auto;
+  }
+
+  .product-title {
+    width: 30%;
+    border-bottom: 1px solid #0c0c0c;
+  }
+
+  .price {
+    width: 15%;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #0c0c0c;
+  }
+
+  .quantity {
+    width: 2%;
+    border-bottom: 1px solid #0c0c0c;
+    display: flex;
+    align-items: center;
+  }
+  .product-cart {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .total {
+    display: none;
+  }
+
+  .product {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #0c0c0c;
+  }
+
+  .basketTotalContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px 0;
+  }
+
+  .basketTotalTitle {
+    width: 30%;
+  }
+
+  .basketTotal {
+    width: 10%;
+  }
+
+  .logo {
+    max-width: 100px;
+  }
+
+  header {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .header2 {
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+  }
+
+  .fa-bars {
+    font-size: 20px;
+  }
+
+  .fa-bag-shopping,
+  .fa-magnifying-glass {
+    font-size: 15px;
   }
 }
