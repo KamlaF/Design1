@@ -44,6 +44,7 @@ function validateForm() {
   if (isValid) {
     var thankYouMessage = document.getElementById("thankYouMessage");
     thankYouMessage.style.display = "block";
+    
   }
 
   console.log("hello");

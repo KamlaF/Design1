@@ -730,6 +730,9 @@ label {
 
 #thankYouMessage {
   display: none;
+  padding: 50px;
+  background-color: #000;
+ 
 }
 /* desktop*/
 @media (min-width: 804px) {
