@@ -144,3 +144,4 @@ for (button of buttons) {
     this.style.color = "white";
   });
 }
+
