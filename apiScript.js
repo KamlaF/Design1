@@ -12,9 +12,12 @@ async function getProducts(url){
   productContainer.innerHTML = "";
   
   products.forEach(function(product){
+
+    console.log(products);
     
     
     productContainer.innerHTML +=`
+    
    
    
     <a href="/detail.html?id=${product.id}" class="productsApi">
