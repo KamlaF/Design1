@@ -20,9 +20,10 @@ async function getProducts(url){
     
    
    
-    <a href="/detail.html?id=${product.id}" class="productsApi">
-    <h2>${product.name}</h2> 
+    <a href="/detail.html?id=${product.id}" class="productsApiInner">
     <img class="product-image" style="background-image:url('${product.images[0].src}')"></img>
+    <h2 class="innerH2">${product.name}</h2> 
+    <button class="moreInfo">More info</button>
     </a> 
     `
   })

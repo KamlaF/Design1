@@ -36,10 +36,7 @@ async function getProductsDetails(){
               <h2>${products.prices.price}$</h2>
               <p>${products.short_description}</p>
               <a href="/cart.html"><button class="add-cart2">Add to Cart</button></a>
-              
-              
-              
-             
+            
               `
               ;
             }
