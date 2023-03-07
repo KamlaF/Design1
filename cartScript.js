@@ -1,31 +1,7 @@
 let carts = document.querySelectorAll(".add-cart, .add-cart2");
 
-let products = [
-  {
-    name: "Black Jacket",
-    tag: "blackjacket",
-    price: 299,
-    inCart: 0,
-  },
-  {
-    name: "Red Jacket",
-    tag: "redjacket",
-    price: 299,
-    inCart: 0,
-  },
-  {
-    name: "Green Jacket",
-    tag: "greenjacket",
-    price: 299,
-    inCart: 0,
-  },
-  {
-    name: "Blue Jacket",
-    tag: "bluejacket",
-    price: 299,
-    inCart: 0,
-  },
-];
+
+let products = document.querySelector(".gameDetail")
 
 for (let i = 0; i < carts.length; i++) {
   carts[i].addEventListener("click", () => {
