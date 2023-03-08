@@ -1,71 +1,62 @@
 # Design1
-# Your project title
+# Rainydays
 
-![image](https://user-images.githubusercontent.com/52622303/164316813-4b12d99f-aeb7-4069-85cf-e72b3a50ac99.png)
+![image](https://kamillafagerland.com/Screenshot%202023-03-01%20at%2014.11.20.png)
 
-A simple overview of the use/purpose of the project.
+An online shop selling men's and women’s outdoor jackets. They are designed for a range of different outdoor activities that enrich people's lives.
+
+SLOGAN
+
+Pushing the comfort zone
 
 ## Description
 
-Add a more detailed description of what your project entails and set out to do.
+In this assigement we were to buld a website for a company selling outdoor jackets. The site is buld with mostly HTML and CSS, and then some vanilla Javascript later in the course. The products are fetched with rest API from wordpress, and the contact form is with javascript. This was our first design assigement so the focus on ui/ux design and cms was also important. Wanted to make a easy clean site that would lead the customers to the products that the company wanted to sell without to much distractions.
 
-You can add some bullet points if you'd like to:
+The site pages are:
 
-- List item 1
-- List item 2
-- List item 3
+- Home page
+- Contact Page
+- List of products
+- Product Details
+- Cart Page
+- Thank you for the order page
 
 ## Built With
 
-You can list a the tech stack that you've used over here
+- HTML
+- CSS
+- Vanilla Javascript
 
-- [React.js](https://reactjs.org/)
-- [Bootstrap](https://getbootstrap.com)
 
-## Getting Started
 
 ### Installing
 
-This is where you list how to get the project started. It typically just includes telling a person to clone the repo and then to install the dependencies e.g.
+ Clone the repo:
 
-1. Clone the repo:
-
-```bash
-git clone git@github.com:NoroffFEU/portfolio-1-example.git
-```
-
-2. Install the dependencies:
-
-```
-npm install
-```
+git clone https://github.com/KamlaF/Design1.git
 
 ### Running
 
-Here is where you detail how to run the app. It typically involves the commands you'd need to run to start the project e.g.
+To run the site open with live server,you can follow this link to set it up in vs code  https://github.com/ritwickdey/live-server-web-extension#setup
 
-To run the app, run the following commands:
-
-```bash
-npm run start
-```
+Another alternative is to drag the file directly into the browser.
 
 ## Contributing
 
-Here you can detail any information you want to provide regarding contributing to the project. For big projects you will usually have a separate `CONTRIBUTING.md` and link to it, but for smaller projects you can simply include instructions here. These instructions can simply detail the process you want a person to take, such as to make sure to open a pull request so code can be reviewed.
+I would love your input! I want to make contributing to this project as easy and transparent as possible, whether it's:
+
+- Reporting a bug
+- Discussing the current state of the code
+- Submitting a fix
+- Proposing new features
+- Design choices
+
 
 ## Contact
 
-This is where you can leave your social links for people to contact you, such as a LinkedIn profile or Twitter link e.g.
-
-[My Twitter page](www.twitter.com)
-
-[My LinkedIn page](www.linkedin.com)
-
-## License
-
-You can link to your license file here if you're using one, or mention what license the codebase falls under. If you're unsure then you can simply delete this section.
+Feel free to contact me by mail: kamilla@askeladdenressurs.no
 
 ## Acknowledgments
 
-This is where you can add any acknowledgements if you'd like, such as to people who have helped you or any code snippets you'd like to mention. You can delete this section if you don't have any acknowledgements to make.
+I wold like to acknowledge the teachers and fellow students at Noroff Schoold of Thecknology and Digital Marketing for good support, tips and help along the way.
